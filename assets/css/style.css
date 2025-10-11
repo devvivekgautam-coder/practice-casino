@@ -1,0 +1,103 @@
+:root{
+    --main-color:#ffc827;
+    --second-color:#ffffff;
+    --text-color:#d7ced5;
+    --dark-bgcolor:#310529;
+    --light-bgcolor:#350b2d;
+    --open-font:font-family: 'Open Sans';
+}
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.navbar {
+    background-color: #380b2d;
+}
+
+section {
+    background-color: #380b2d !important;
+}
+ul li a {
+    color: white !important;
+}
+
+.dropdown-menu a:hover{
+    background-color: #380b2d !important;
+    color: white !important;
+}
+
+.home-title h1{
+font-size: 70px;
+    color: white;
+}
+
+.home-title h1 span{
+    color: #ffc827;
+}
+
+.home-title p{
+    color: var(--text-color);
+}
+
+.play-btn button{
+    background-color: var(--main-color);
+}
+
+.sign-btn button{
+    background-color: var(--main-color);
+}
+
+.abt-page button{
+    background-color: var(--main-color);
+}
+
+.abt-page h1{
+    font-size: 60px;
+}
+
+.abt-page p{
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.abt-play p{
+    color: var(--text-color);
+}
+
+.abt-play span{
+    color: var(--main-color);
+}
+
+.abt-play img {
+    padding:  20px 50px;
+    background-color: var(--light-bgcolor);
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.abt-play h5 {
+    margin-top: 10px;
+}
+
+.abt-play button{
+    margin-top: 10px;
+}
+
+.abt-games{
+    background-image: url(../Images/card-bg.png);
+    background-color: var(--dark-bgcolor);
+    overflow: hidden;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.abt-top h1{
+    font-size: 50px;
+}
+
+.abt-top p{
+    color: var(--text-color);
+}
