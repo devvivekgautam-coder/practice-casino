@@ -87,7 +87,7 @@ font-size: 70px;
 
 .abt-games{
     background-image: url(../Images/card-bg.png);
-    background-color: var(--dark-bgcolor);
+    background-color: var(--light-bgcolor);
     overflow: hidden;
     padding: 20px 10px;
     border-radius: 5px;
@@ -100,4 +100,14 @@ font-size: 70px;
 
 .abt-top p{
     color: var(--text-color);
+}
+
+.navbar-toggler-icon{
+    background-color: var(--main-color) !important;
+    color: var(--light-bgcolor) !important;
+}
+
+.card-section{
+    background-color: var(--light-bgcolor) !important;
+    z-index: 1;
 }
